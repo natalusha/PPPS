@@ -1,0 +1,9 @@
+D:\лабы 3 курс\PPPS2\WebApplication1\Core\bin\Debug\netcoreapp3.1\Core.deps.json
+D:\лабы 3 курс\PPPS2\WebApplication1\Core\bin\Debug\netcoreapp3.1\Core.dll
+D:\лабы 3 курс\PPPS2\WebApplication1\Core\bin\Debug\netcoreapp3.1\Core.pdb
+D:\лабы 3 курс\PPPS2\WebApplication1\Core\obj\Debug\netcoreapp3.1\Core.csprojAssemblyReference.cache
+D:\лабы 3 курс\PPPS2\WebApplication1\Core\obj\Debug\netcoreapp3.1\Core.csproj.CoreCompileInputs.cache
+D:\лабы 3 курс\PPPS2\WebApplication1\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfoInputs.cache
+D:\лабы 3 курс\PPPS2\WebApplication1\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfo.cs
+D:\лабы 3 курс\PPPS2\WebApplication1\Core\obj\Debug\netcoreapp3.1\Core.dll
+D:\лабы 3 курс\PPPS2\WebApplication1\Core\obj\Debug\netcoreapp3.1\Core.pdb

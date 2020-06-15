@@ -1,0 +1,61 @@
+﻿CREATE TABLE [Genres] (
+	Id integer NOT NULL IDENTITY(1,1),
+	Name string,
+  CONSTRAINT [PK_INFOS] PRIMARY KEY CLUSTERED
+  (
+  [Id] ASC
+  ) WITH (IGNORE_DUP_KEY = OFF)
+
+)
+GO
+CREATE TABLE [Authors] (
+	Id integer NOT NULL IDENTITY(1,1),
+	Name string NOT NULL,
+    
+  CONSTRAINT [PK_CREATORS] PRIMARY KEY CLUSTERED
+  (
+  [Id] ASC
+  ) WITH (IGNORE_DUP_KEY = OFF)
+
+)
+GO
+CREATE TABLE [Works] (
+	Id integer NOT NULL IDENTITY(1,1),
+    Name string,
+	Genre_id integer NOT NULL,
+  CONSTRAINT [PK_ITEMS] PRIMARY KEY CLUSTERED
+  (
+  [Id] ASC
+  ) WITH (IGNORE_DUP_KEY = OFF)
+
+)
+GO
+CREATE TABLE [WorkAuthor] (
+    Record_id integer NOT NULL IDENTITY(1,1),
+	Work_id integer NOT NULL,
+	Author_id integer NOT NULL,
+  CONSTRAINT [PK_ITEMCREATOR] PRIMARY KEY CLUSTERED
+  (
+  [Record_id] ASC
+  ) WITH (IGNORE_DUP_KEY = OFF)
+
+)
+GO
+
+
+ALTER TABLE [Works] WITH CHECK ADD CONSTRAINT [Works_fk0] FOREIGN KEY ([Genre_id]) REFERENCES [Genres]([Id])
+ON UPDATE CASCADE
+GO
+ALTER TABLE [Works] CHECK CONSTRAINT [Works_fk0]
+GO
+
+ALTER TABLE [WorkAuthor] WITH CHECK ADD CONSTRAINT [WorkAuthor_fk0] FOREIGN KEY ([Work_id]) REFERENCES [Works]([Id])
+ON UPDATE CASCADE
+GO
+ALTER TABLE [WorkAuthor] CHECK CONSTRAINT [WorkAuthor_fk0]
+GO
+ALTER TABLE [WorkAuthor] WITH CHECK ADD CONSTRAINT [WorkAuthor_fk1] FOREIGN KEY ([Author_id]) REFERENCES [Authors]([Id])
+ON UPDATE CASCADE
+GO
+ALTER TABLE [WorkAuthor] CHECK CONSTRAINT [WorkAuthor_fk1]
+GO

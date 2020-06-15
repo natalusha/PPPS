@@ -1,0 +1,12 @@
+D:\лабы 3 курс\PPPS2\WebApplication1\Data\bin\Debug\netcoreapp3.1\Data.deps.json
+D:\лабы 3 курс\PPPS2\WebApplication1\Data\bin\Debug\netcoreapp3.1\Data.dll
+D:\лабы 3 курс\PPPS2\WebApplication1\Data\bin\Debug\netcoreapp3.1\Data.pdb
+D:\лабы 3 курс\PPPS2\WebApplication1\Data\bin\Debug\netcoreapp3.1\Core.dll
+D:\лабы 3 курс\PPPS2\WebApplication1\Data\bin\Debug\netcoreapp3.1\Core.pdb
+D:\лабы 3 курс\PPPS2\WebApplication1\Data\obj\Debug\netcoreapp3.1\Data.csprojAssemblyReference.cache
+D:\лабы 3 курс\PPPS2\WebApplication1\Data\obj\Debug\netcoreapp3.1\Data.csproj.CoreCompileInputs.cache
+D:\лабы 3 курс\PPPS2\WebApplication1\Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfoInputs.cache
+D:\лабы 3 курс\PPPS2\WebApplication1\Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfo.cs
+D:\лабы 3 курс\PPPS2\WebApplication1\Data\obj\Debug\netcoreapp3.1\Data.csproj.CopyComplete
+D:\лабы 3 курс\PPPS2\WebApplication1\Data\obj\Debug\netcoreapp3.1\Data.dll
+D:\лабы 3 курс\PPPS2\WebApplication1\Data\obj\Debug\netcoreapp3.1\Data.pdb
