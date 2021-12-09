@@ -1,5 +1,1 @@
-# PPPS
-пз к паттернам
-скрипт создания базы данных: PPPS\WebApplication1\Data\Resources
-
-подключение к базе данных:PPPS\WebApplication1\Data\Connections
+![222](https://user-images.githubusercontent.com/48587331/145453988-b666609b-a485-4609-9267-9b5c7b9ad7ba.jpg)
